@@ -299,6 +299,14 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+flaticon-hammer:before {
+		font-size: 64px;
+		color: #222;
+		margin-left: 0;
+}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -2717,9 +2725,9 @@ input, select, textarea {
 		}
 
 		.panel.color1 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+			background-image: url("../../images/overlay.png"), /*linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25))*/;
 			background-size: 128px 128px, auto;
-			background-color: #726193;
+			background-color: black;
 		}
 
 		.panel.color2 {
@@ -2775,9 +2783,9 @@ input, select, textarea {
 		}
 
 			.panel > *.color1 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.png"),/* linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25))*/;
 				background-size: 128px 128px, auto;
-				background-color: #726193;
+				background-color: black;
 			}
 
 			.panel > *.color2 {
@@ -3202,9 +3210,9 @@ input, select, textarea {
 				}
 
 			.panel.color1 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.png"),/* linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25))*/;
 				background-size: 128px 128px, auto;
-				background-color: #726193;
+				background-color: black;
 			}
 
 			.panel.color2 {
